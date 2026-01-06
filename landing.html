@@ -3,113 +3,89 @@
 <head>
   <meta charset="UTF-8">
   <title>AutoPrime | Venta Inteligente de Autos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- HEADER -->
-<header>
+<header class="header">
   <strong>AutoPrime</strong>
-  <nav>
-    <a href="#beneficios">Beneficios</a>
-    <a href="#vehiculos">Vehículos</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
 </header>
 
-<!-- HERO -->
-<section class="hero hero-bg">
+<section class="hero">
   <div class="hero-content">
-    <h1>Vende tu auto mejor, sin perder tiempo</h1>
+    <h1>Vende o compra tu auto con seguridad</h1>
     <p>
-      Te ayudamos a encontrar el vehículo ideal  
-      según tu momento, tu presupuesto y tus objetivos.
+      Te ayudamos a tomar la mejor decisión según tu presupuesto,
+      tu momento y tus objetivos.
     </p>
-    <a href="#contacto">
-      <button class="btn">Quiero asesoría</button>
-    </a>
+    <a href="#contacto" class="btn">Quiero asesoría</a>
   </div>
 </section>
 
-<!-- PROBLEMA / SOLUCIÓN -->
-<section>
-  <div class="cards">
-    <div class="card">
-      <h3>❌ El problema</h3>
-      <p>
-        Muchas personas compran o venden autos sin información clara,
-        perdiendo dinero y tiempo.
-      </p>
-    </div>
+<section class="bloques">
+  <div class="bloque">
+    <h3>❌ El problema</h3>
+    <p>
+      Comprar o vender un auto sin guía suele terminar en malas decisiones
+      y pérdida de dinero.
+    </p>
+  </div>
 
-    <div class="card">
-      <h3>✅ Nuestra solución</h3>
-      <p>
-        Te guiamos paso a paso para que tomes una decisión segura
-        y alineada a tu realidad actual.
-      </p>
-    </div>
+  <div class="bloque">
+    <h3>✅ Nuestra solución</h3>
+    <p>
+      Te asesoramos de forma clara y honesta para que elijas bien
+      desde el inicio.
+    </p>
   </div>
 </section>
 
-<!-- BENEFICIOS -->
-<section id="beneficios">
+<section class="beneficios">
   <h2>¿Por qué elegir AutoPrime?</h2>
 
-  <div class="cards">
-    <div class="card">
-      <h3>Asesoría honesta</h3>
-      <p>No empujamos ventas. Recomendamos lo que tiene sentido.</p>
-    </div>
-
-    <div class="card">
-      <h3>Opciones claras</h3>
-      <p>Comparas vehículos reales, sin letra pequeña.</p>
-    </div>
-
-    <div class="card">
-      <h3>Ahorro de tiempo</h3>
-      <p>Te mostramos solo lo que vale la pena.</p>
-    </div>
+  <div class="beneficios-grid">
+    <div class="beneficio">Asesoría real, sin presión</div>
+    <div class="beneficio">Opciones claras y comparables</div>
+    <div class="beneficio">Ahorro de tiempo y dinero</div>
   </div>
 </section>
 
-<!-- VEHÍCULOS -->
-<section id="vehiculos">
-  <h2>Vehículos disponibles</h2>
+<section class="ejemplos">
+  <h2>Ejemplos de vehículos</h2>
 
-  <div class="cards">
+  <div class="vehiculos">
     <div class="vehiculo">
-      <h3>Sedán Ejecutivo</h3>
-      <p>Ideal para ciudad, eficiente y cómodo.</p>
+      <img src="assets/img/sedan.jpg" alt="Sedán">
+      <h4>Sedán Ejecutivo</h4>
+      <p>Comodidad y eficiencia para ciudad.</p>
     </div>
 
     <div class="vehiculo">
-      <h3>SUV Familiar</h3>
-      <p>Espacio, seguridad y versatilidad.</p>
+      <img src="assets/img/suv.jpg" alt="SUV">
+      <h4>SUV Familiar</h4>
+      <p>Espacio y seguridad para todos.</p>
     </div>
 
     <div class="vehiculo">
-      <h3>Modelo Premium</h3>
+      <img src="assets/img/premium.jpg" alt="Premium">
+      <h4>Modelo Premium</h4>
       <p>Diseño, potencia y estatus.</p>
     </div>
   </div>
 </section>
 
-<!-- CTA FINAL -->
-<section id="contacto" class="hero">
+<section id="contacto" class="cta">
   <h2>Hablemos de tu caso</h2>
   <p>
     Cuéntanos qué buscas y te diremos cuál es la mejor opción para ti.
   </p>
-
-  <a href="https://wa.me/573000000000" target="_blank">
-    <button class="btn">Hablar por WhatsApp</button>
+  <a href="https://wa.me/573000000000" target="_blank" class="btn">
+    Hablar por WhatsApp
   </a>
 </section>
 
-<!-- FOOTER -->
-<footer>
+<footer class="footer">
   © AutoPrime — Decisiones inteligentes sobre ruedas
 </footer>
 
